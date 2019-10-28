@@ -3,7 +3,11 @@
 library(leaflet.extras)
 library(htmlwidgets)
 
-setwd('G:/SEANOLSON/Documents/Github/r-shiny-templates/evmaxx')
+#windows directory
+#setwd('G:/SEANOLSON/Documents/Github/r-shiny-templates/evmaxx')
+
+# Mac directory
+setwd('/Users/seanolson/Documents/GitHub/r-shiny-templates/evmaxx')
 
 df = read.csv('stations.csv')
 df2 = subset(df, UsageType == "Public")
